@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "emotion-monorepo23",
+  "name": "emotion-monorepo",
   "version": "10.0.0",
   "scripts": {
     "build:watch": "preconstruct watch",
