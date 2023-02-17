@@ -26,10 +26,6 @@ jobs:
       - name: Run Tests
         run: yarn test:ci --color
 
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v1
-        if: ${{ matrix.platform == 'ubuntu-latest' && always() }}
-
   flow:
     name: Flow
     runs-on: ubuntu-latest
